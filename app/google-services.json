@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "440027414283",
+    "project_id": "shopaz-51560",
+    "storage_bucket": "shopaz-51560.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440027414283:android:697343d2cea386fd43ec0e",
+        "android_client_info": {
+          "package_name": "com.example.shopaz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440027414283-58pdo8tnks6i1h6m18tv2q9iq4qbq93o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSuZIH4tBB57ojNQ9zb3qsVduV-qiHFa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440027414283-58pdo8tnks6i1h6m18tv2q9iq4qbq93o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

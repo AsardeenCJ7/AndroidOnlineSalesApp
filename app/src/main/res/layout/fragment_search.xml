@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomesFragment"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can track your destination"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"/>
+
+    <EditText
+        android:id="@+id/et_source"
+        android:layout_width="296dp"
+        android:layout_height="46dp"
+        android:background="@drawable/lavendar_shape"
+        android:textAlignment="center"
+        android:hint="Enter Source Location"
+        android:padding="12dp"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/et_destination"
+        android:layout_width="296dp"
+        android:layout_height="46dp"
+        android:background="@drawable/lavendar_shape"
+        android:textAlignment="center"
+        android:hint="Enter Destination"
+        android:padding="12dp"
+        android:layout_marginTop="12dp"/>
+
+
+    <Button
+        android:id="@+id/btn_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find your Destination"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/lavendar_shape"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="@color/purple"/>
+
+    <Button
+        android:id="@+id/current_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find your current location"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/lavendar_shape"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="@color/purple"/>
+
+
+</LinearLayout>

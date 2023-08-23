@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ShopAZ</string>
+    <string name="app_desc">ShopAZ is designed to be informative, engaging, and easy to navigate, providing users with a seamless onboarding experience that sets the stage for a positive and rewarding shopping experience.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+</resources>
